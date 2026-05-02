@@ -118,13 +118,6 @@ lottie-react
 
 
 
-
-
-
-
-
-
-
 Name: Mintu Vumi
 Email: mintuhossain0606@gmail.com
 Photo URL: https://i.ibb.co.com/4pDNDk1/avatar.png

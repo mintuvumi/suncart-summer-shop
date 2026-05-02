@@ -16,15 +16,18 @@ export default function RegisterPage() {
     const form = e.currentTarget;
     const formData = new FormData(form);
 
-    const { error } = await signUp.email({
+    const result = await signUp.email({
       name: String(formData.get("name")),
       email: String(formData.get("email")),
       password: String(formData.get("password")),
       image: String(formData.get("image")),
     });
 
-    if (error) {
-      setError(error.message || "Registration failed");
+    console.log("REGISTER RESULT:", result);
+
+    if (result.error) {
+      console.log("REGISTER ERROR:", result.error);
+      setError(result.error.message || JSON.stringify(result.error));
       return;
     }
 
