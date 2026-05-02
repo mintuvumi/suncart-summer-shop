@@ -17,14 +17,13 @@ The goal of this project is to build a fully responsive and modern eCommerce web
 
 ##  Live URL
 
- https://your-live-link.vercel.app
+https://suncart-shop.vercel.app
 
 ---
 
 ##  GitHub Repository
 
- https://github.com/your-username/suncart-summer-shop
-
+https://github.com/mintuvumi/suncart-summer-shop
 ---
 
 ##  Key Features
