@@ -1,8 +1,10 @@
 import { betterAuth } from "better-auth";
-import Database from "better-sqlite3";
+import { Pool } from "pg";
 
 export const auth = betterAuth({
-  database: new Database("./suncart.db"),
+  database: new Pool({
+    connectionString: process.env.DATABASE_URL,
+  }),
 
   emailAndPassword: {
     enabled: true,
@@ -10,8 +12,8 @@ export const auth = betterAuth({
 
   socialProviders: {
     google: {
-      clientId: process.env.GOOGLE_CLIENT_ID as string,
-      clientSecret: process.env.GOOGLE_CLIENT_SECRET as string,
+      clientId: process.env.GOOGLE_CLIENT_ID || "",
+      clientSecret: process.env.GOOGLE_CLIENT_SECRET || "",
       prompt: "select_account",
     },
   },
