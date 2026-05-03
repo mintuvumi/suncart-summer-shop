@@ -1,7 +1,9 @@
 
-#  SunCart – Summer Essentials Store
+# Project Name: SunCart 
 
 ##  Project Overview
+## SunCart – Summer Essentials Store
+
 
 SunCart is a modern summer eCommerce platform where users can explore and purchase seasonal products like sunglasses, summer outfits, skincare, beach accessories, and more.
 
@@ -43,13 +45,13 @@ https://github.com/mintuvumi/suncart-summer-shop
 
 ##  Pages & Routes
 
-- `/` → Home Page
-- `/products` → All Products
-- `/products/[id]` → Product Details (Protected)
-- `/login` → Login Page
-- `/register` → Register Page
-- `/my-profile` → User Profile
-- `/update-profile` → Update Profile
+- → Home Page
+- products` → All Products
+- products/[id]` → Product Details (Protected)
+- login` → Login Page
+- register` → Register Page
+- my-profile` → User Profile
+- update-profile` → Update Profile
 
 ---
 
