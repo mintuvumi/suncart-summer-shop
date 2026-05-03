@@ -17,9 +17,9 @@ The goal of this project is to build a fully responsive and modern eCommerce web
 
 ##  Live URL
 
-https://suncart-shop.vercel.app
+https://suncart-summer-shop.vercel.app/
 
----
+
 
 ##  GitHub Repository
 
@@ -81,6 +81,7 @@ lottie-react
 
 
 
+## Md Mozamml Hossain Mintu Vumi
 
 
 
@@ -117,8 +118,3 @@ lottie-react
 
 
 
-
-Name: Mintu Vumi
-Email: mintuhossain0606@gmail.com
-Photo URL: https://i.ibb.co.com/4pDNDk1/avatar.png
-Password: mintuhossain0606

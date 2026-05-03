@@ -17,7 +17,7 @@ export default function Footer() {
 
         <div>
           <h3 className="font-bold mb-3">Social</h3>
-          <p>Facebook | Instagram | Twitter</p>
+          <p>Facebook  Instagram  Twitter</p>
           <p className="mt-3">Privacy Policy</p>
         </div>
       </div>
